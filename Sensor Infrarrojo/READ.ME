@@ -1,0 +1,9 @@
+En esta practica aprenderemos a utilizar el PIC para hacer un contador utulizando un sensor infrarrojo.
+
+El puerto  B0 lo utilizamos como entrada por lo que el programa espera una transicion para que este pueda contar una unidad,
+en lugar de un boton lo "emulamos" con el sensor, por lo que cuando alguien interrumpe la señal entre el emisor y receptor infrarrojo
+este entrega un nivel bajo (0). 
+El oldstate lo ocupamos como un seguro para que el programa no cuente indefinidamente si dejamos el nivel bajo por un prolongado
+tiempo.
+
+El diagrama que necesitaremos esta en esta misma carpeta,
