@@ -1,4 +1,4 @@
-short poli[]={0xF1,0xFA,0x58,0x50};
+short poli[]={0xF1,0xFA,0x58,0x50}; //valores a ocupar para la palabra "POLI"
 short time;
 void main() {
 ANSEL=0;
