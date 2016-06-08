@@ -20,7 +20,7 @@ centenas=0;
  while(1){  //Ciclo infinito para imprimir permanentemente  --->
   PORTD=numero[unidades];//los datos en cada displaycorrespondiente
   PORTC.F3=0;    //Habilitamos puerto F3 para habilitar el 4to display
-  delay_ms(3);    //dejamos un tiempo para que eñ display reciba los datos
+  delay_ms(3);    //dejamos un tiempo para que el display reciba los datos
   PORTC.F3=1;     //deshabilitamos el display F3 para que no siga recibiendo datos.
   PORTD=numero[decenas];
   PORTC.F2=0;
