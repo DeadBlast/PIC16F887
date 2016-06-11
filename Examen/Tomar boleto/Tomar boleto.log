@@ -7,5 +7,5 @@ hint: 0	1144	Used RAM (bytes): 62 (18%)  Free RAM (bytes): 290 (82%)	Used RAM (b
 hint: 0	1144	Used ROM (program words): 533 (7%)  Free ROM (program words): 7659 (93%)	Used ROM (program words): 533 (7%)  Free ROM (program words): 7659 (93%)
 diagnostics: 0	125	Project Linked Successfully	Tomar boleto.mcppi
 diagnostics: 0	128	Linked in 109 ms	 
-diagnostics: 0	129	Project 'Tomar boleto.mcppi' completed: 266 ms	 
-diagnostics: 0	103	Finished successfully: 10 jun. 2016, 23:07:37	Tomar boleto.mcppi
+diagnostics: 0	129	Project 'Tomar boleto.mcppi' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 10 jun. 2016, 23:49:12	Tomar boleto.mcppi
