@@ -1,4 +1,4 @@
-# PIC16F887
+#<p align="center">PIC16F887</p>
 <IMG SRC="http://tecdigitaldelbajio.com/images/Productos/Microcontroladores_PIC/40_Terminales/PIC16F887/pic16f887dd.PNG">
 <br>
 El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tiene una arquitectura de 8 bits, ADC, PWM, comunicación serial, oscilador interno, entre otras muchas características, lo hacen un reemplazo obvio del antiguo PIC16F877A.
