@@ -4,17 +4,17 @@ El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tien
 <br>
 El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
 <IMG SRC="http://tecdigitaldelbajio.com/images/Productos/Microcontroladores_PIC/40_Terminales/PIC16F887/pic16f887dd.PNG">
-* [Caracteristicas del PIC](#Características-del-PIC)
- * [Diagramas del PIC](#Diagramas)
-* [Descripcion pines](#Descripcion de pines)
-* [Unidad de procesamiento central (CPU)](#UNIDAD-CENTRAL-DE-PROCESAMIENTO-CPU))
+* [Caracteristicas del PIC](#características-del-pic)
+ * [Diagramas del PIC](#diagramas)
+* [Descripcion pines]#descripcion-de-pines)
+* [Unidad de procesamiento central (CPU)](#unidad-central-de-procesamiento-cpu)
 * [Memoria](#memoria)
-* [Memoria ROM](#Memoria-ROM)
-* [Memoria EEPROM](#Memoria-EEPROM)
-* [Memoria ram](#Memoria-RAM)
-* [Registro de proposito general](#Registro-de-proposito-general)
-* [Mas información](#Mas-información)
-* [Sobre el proyecto](#Sobre-el-proyecto)
+* [Memoria ROM](#memoria-rom)
+* [Memoria EEPROM](#memoria-eeprom)
+* [Memoria ram](#memoria-ram)
+* [Registro de proposito general](#registros-de-propÓsito-general)
+* [Mas información](#mas-información)
+* [Sobre el proyecto](#sobre-el-proyecto)
 
 ##Características del PIC
 <div class="fleft">
@@ -115,5 +115,5 @@ El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en 
 </p>
 ##Sobre el proyecto
 <p> Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
-y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](telegram.me/@eadBlastBot)
+y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](telegram.me/@eadBlastBot).
 
