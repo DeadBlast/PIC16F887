@@ -2,7 +2,7 @@
 <br>
 El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tiene una arquitectura de 8 bits, ADC, PWM, comunicación serial, oscilador interno, entre otras muchas características, lo hacen un reemplazo obvio del antiguo PIC16F877A.
 <br>
-El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
+El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
 <IMG SRC="http://tecdigitaldelbajio.com/images/Productos/Microcontroladores_PIC/40_Terminales/PIC16F887/pic16f887dd.PNG">
 * [Caracteristicas del PIC](#características-del-pic)
  * [Diagramas del PIC](#diagramas)
@@ -108,11 +108,11 @@ El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en 
 <p>Ahora el microcontrolador puede ejecutar el programa ya que sabe qué es y dónde está la suma que se va a incrementar. De manera similar, a cada variable de programa se le debe pre-asignar alguno de los registros de propósito general.</p>
 
 ##Mas información
-<p>Para saber mas informacion del PIC te dejo los siguientes enlaces:
- * [Caracteristicas Basicas del PIC16F887 (Español)](http://learn.mikroe.com/ebooks/microcontroladorespicc/chapter/caracteristicas-basicas-del-pic16f887/)
- * [Data Sheet completo(Ingles)](http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf)
+<p>Para saber mas informacion del PIC te dejo los siguientes enlaces:</p>
+* [Caracteristicas basicas del PIC16F887 (Español)](http://learn.mikroe.com/ebooks/microcontroladorespicc/chapter/caracteristicas-basicas-del-pic16f887/)
+* [Manual completo del PIC16f887 (Ingles)](http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf)
 
-</p>
+
 ##Sobre el proyecto
 <p> Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
 y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](http://telegram.me/DeadBlastBot).
