@@ -115,5 +115,5 @@ El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en 
 </p>
 ##Sobre el proyecto
 <p> Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
-y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](telegram.me/@eadBlastBot).
+y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](http://telegram.me/@DeadBlastBot).
 
