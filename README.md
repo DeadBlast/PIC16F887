@@ -6,7 +6,7 @@ El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en 
 <IMG SRC="http://tecdigitaldelbajio.com/images/Productos/Microcontroladores_PIC/40_Terminales/PIC16F887/pic16f887dd.PNG">
 * [Caracteristicas del PIC](#características-del-pic)
  * [Diagramas del PIC](#diagramas)
-* [Descripcion pines]#descripcion-de-pines)
+* [Descripcion pines](#descripcion-de-pines)
 * [Unidad de procesamiento central (CPU)](#unidad-central-de-procesamiento-cpu)
 * [Memoria](#memoria)
 * [Memoria ROM](#memoria-rom)
