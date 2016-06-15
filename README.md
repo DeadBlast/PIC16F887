@@ -114,15 +114,17 @@ El microcontrolador tiene una memoria de 14 KB, suficiente para aplicaciones en 
 ##registros
 <p>Los registros de propósito general se utilizan para almacenar los datos temporales y los resultados creados durante el funcionamiento. Por ejemplo, si el programa realiza el conteo (de los productos en una cadena de montaje), es necesario tener un registro que representa lo que en la vida cotidiana llamamos “suma”. Como el microcontrolador no es nada creativo, es necesario especificar la dirección de un registro de propósito general y asignarle esa función. Se debe crear un programa simple para incrementar el valor de este registro por 1, después de que cada producto haya pasado por el sensor.</p>
 <p>Ahora el microcontrolador puede ejecutar el programa ya que sabe qué es y dónde está la suma que se va a incrementar. De manera similar, a cada variable de programa se le debe pre-asignar alguno de los registros de propósito general.</p>
+
 ##mas
+
 #Mas información
 <p>Para saber mas informacion del PIC te dejo los siguientes enlaces:
  * [Caracteristicas Basicas del PIC16F887 (Español)](http://learn.mikroe.com/ebooks/microcontroladorespicc/chapter/caracteristicas-basicas-del-pic16f887/)
  * [Data Sheet completo(Ingles)](http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf)
 
-
 </p>
 #Sobre el proyecto
+##proyecto
 <p> Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
 y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](telegram.me/@eadBlastBot)
 
