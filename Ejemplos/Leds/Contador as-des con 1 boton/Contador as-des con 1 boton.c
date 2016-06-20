@@ -21,7 +21,7 @@ while(1){
    cuenta--;
   }
   if(updown==1){ //si updown=1 entonces le añadios una unidad a cuenta
-   cuenta++;
+  cuenta++;
   }
   if(cuenta>14){ //Si la cuenta es mayor que 14(llegara al 15) updown ahora pasara a 0 (Por lo que descendera)
    updown=0;
