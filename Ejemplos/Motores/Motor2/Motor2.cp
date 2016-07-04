@@ -1,4 +1,4 @@
-#line 1 "E:/Motor2/Motor2.c"
+#line 1 "C:/Users/jujoj/Documents/GitHub/PIC16F887/Ejemplos/Motores/Motor2/Motor2.c"
 
 sbit LCD_RS at RC5_bit;
 sbit LCD_EN at RC4_bit;
