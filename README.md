@@ -3,7 +3,7 @@
 El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tiene una arquitectura de 8 bits, ADC, PWM, comunicación serial, oscilador interno, entre otras muchas características, lo hacen un reemplazo obvio del antiguo PIC16F877A.
 <br>
 El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
-<IMG SRC="http://tecdigitaldelbajio.com/images/Productos/Microcontroladores_PIC/40_Terminales/PIC16F887/pic16f887dd.PNG">
+<IMG SRC="https://learn.mikroe.com/ebooks/wp-content/uploads/sites/37/2016/02/al-mundo-de-los-microcontroladores-chapter-03-fig3-1.gif">
 * [Caracteristicas del PIC](#características-del-pic)
  * [Diagramas del PIC](#diagramas)
 * [Descripcion pines](#descripcion-de-pines)
