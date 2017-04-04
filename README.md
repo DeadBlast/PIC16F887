@@ -4,7 +4,7 @@ El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tien
 <br>
 El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
 <IMG SRC="https://learn.mikroe.com/ebooks/wp-content/uploads/sites/37/2016/02/al-mundo-de-los-microcontroladores-chapter-03-fig3-1.gif">
-* [Caracteristicas del PIC](#características-del-pic)
+*[Caracteristicas del PIC](#características-del-pic)
  * [Diagramas del PIC](#diagramas)
 * [Descripcion pines](#descripcion-de-pines)
 * [Unidad de procesamiento central (CPU)](#unidad-central-de-procesamiento-cpu)
