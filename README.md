@@ -4,7 +4,8 @@ El PIC16F887 es un poderoso y económico microcontrolador de 40 terminales, tien
 <br>
 El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en la industria o en dispositivos electrónicos donde se requiera conectar varios periféricos, pues cuenta hasta con 36 líneas de entrada/salida‏
 <IMG SRC="https://learn.mikroe.com/ebooks/wp-content/uploads/sites/37/2016/02/al-mundo-de-los-microcontroladores-chapter-03-fig3-1.gif">
-*[Caracteristicas del PIC](#características-del-pic)
+
+* [Caracteristicas del PIC](#características-del-pic)
  * [Diagramas del PIC](#diagramas)
 * [Descripcion pines](#descripcion-de-pines)
 * [Unidad de procesamiento central (CPU)](#unidad-central-de-procesamiento-cpu)
@@ -69,11 +70,13 @@ El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en l
 <ul class="default_font flat"><li>Soporta los modos SPI e I2C</li>
 </ul></li>
 </ul></div>
+
 ## Diagramas
 <img src='http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204117/al-mundo-de-los-microcontroladores-chapter-03-fig3-1.gif'>
 <img src='http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204132/al-mundo-de-los-microcontroladores-chapter-03-fig3-2.gif'>
 <img src='http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204148/al-mundo-de-los-microcontroladores-chapter-03-fig3-3.gif'>
-##Descripcion de pines
+
+## Descripcion de pines
 <p>La mayoría de los pines del microcontrolador PIC16F887 son multipropósito como se muestra en la figura anterior. Por ejemplo, la asignación RA3/AN3/Vref+/C1IN+ para el quinto pin del microcontrolador indica que éste dispone de las siguientes funciones:</p>
 <ul class="default_font flat"><li>RA3 Tercera entrada/salida digital del puerto A</li>
 <li>AN3 Tercera entrada analógica</li>
@@ -84,6 +87,7 @@ El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en l
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204201/al-mundo-de-los-microcontroladores-chapter-03-fig3-4.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-4" width="670" height="817" class="aligncenter size-full wp-image-142"></div
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204218/al-mundo-de-los-microcontroladores-chapter-03-fig3-5.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-5" width="675" height="787" class="aligncenter size-full wp-image-143"></div>
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204231/al-mundo-de-los-microcontroladores-chapter-03-fig3-6.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-6" width="668" height="715" class="aligncenter size-full wp-image-144"></div>
+
 ## UNIDAD CENTRAL DE PROCESAMIENTO (CPU)
 <p>Con el propósito de explicar en forma clara y concisa, sin describir profundamente el funcionamiento de la CPU, vamos a hacer constar que la CPU está fabricada con la tecnología RISC ya que esto es un factor importante al decidir qué microcontrolador utilizar.</p>
 <p>RISC es un acrónimo derivado del inglés <i>Reduced Instruction Set Computer</i>, lo que proporciona al PIC16F887 dos grandes ventajas:</p>
@@ -91,18 +95,23 @@ El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en l
 <li>El tiempo de ejecución es igual para casi todas las instrucciones y tarda 4 ciclos de reloj. La frecuencia del oscilador se estabiliza por un cristal de cuarzo. Las instrucciones de salto y de ramificación tardan ocho ciclos de reloj en ejecutarse. Esto significa que si la velocidad de operación del microcontrolador es 20 MHz, el tiempo de ejecución de cada instrucción será 200nS, o sea, ¡el programa ejecutará 5millones de instrucciones por segundo!</li>
 </ul>
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204251/al-mundo-de-los-microcontroladores-chapter-03-fig3-7.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-7" width="650" height="390" class="aligncenter size-full wp-image-145"></div>
+
 ## MEMORIA
 <p>El PIC16F887 tiene tres tipos de memoria: ROM, RAM y EEPROM. Como cada una tiene las funciones, características y organización específicas, vamos a presentarlas por separado.</p>
+
 ## MEMORIA ROM
 <p>La memoria ROM se utiliza para guardar permanente el programa que se está ejecutando. Es la razón por la que es frecuentemente llamada “memoria de programa”. El PIC16F887 tiene 8Kb de memoria ROM (en total 8192 localidades). Como la memoria ROM está fabricada con tecnología FLASH, su contenido se puede cambiar al proporcionarle un voltaje de programación especial (13V).</p>
 <p>No obstante, no es necesario explicarlo en detalles puesto que se realiza automáticamente por un programa especial en la PC y un simple dispositivo electrónico denominado programador.</p>
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204303/al-mundo-de-los-microcontroladores-chapter-03-fig3-8.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-8" width="650" height="325" class="aligncenter size-full wp-image-146"></div>
+
 ## Memoria EEPROM
 <p>Similar a la memoria de programa, el contenido de memoria EEPROM está permanentemente guardado al apagar la fuente de alimentación. Sin embargo, a diferencia de la ROM, el contenido de la EEPROM se puede cambiar durante el funcionamiento del microcontrolador. Es la razón por la que esta memoria (256 localidades) es perfecta para guardar permanentemente algunos resultados creados y utilizados durante la ejecución del programa.</p>
-##Memoria RAM
+
+## Memoria RAM
 <p>Es la tercera y la más compleja parte de la memoria del microcontrolador. En este caso consiste en dos partes: en registros de propósito general y en los registros de funciones especiales (SFR). Todos estos registros se dividen en cuatro bancos de memoria de los que vamos a hablar más tarde en este capítulo.</p>
 <p>A unque los dos grupos de registros se ponen a cero al apagar la fuente de alimentación, además están fabricados de la misma forma y se comportan de la manera similar, sus funciones no tienen muchas cosas en común.</p>
 <div class="center"><img src="http://cdn.mikroe.com/ebooks/sites/37/2016/02/16204316/al-mundo-de-los-microcontroladores-chapter-03-fig3-9.gif" alt="al-mundo-de-los-microcontroladores-chapter-03-fig3-9" width="700" height="633" class="aligncenter size-full wp-image-147"></div>
+
 ## REGISTROS DE PROPÓSITO GENERAL
 <p>Los registros de propósito general se utilizan para almacenar los datos temporales y los resultados creados durante el funcionamiento. Por ejemplo, si el programa realiza el conteo (de los productos en una cadena de montaje), es necesario tener un registro que representa lo que en la vida cotidiana llamamos “suma”. Como el microcontrolador no es nada creativo, es necesario especificar la dirección de un registro de propósito general y asignarle esa función. Se debe crear un programa simple para incrementar el valor de este registro por 1, después de que cada producto haya pasado por el sensor.</p>
 <p>Ahora el microcontrolador puede ejecutar el programa ya que sabe qué es y dónde está la suma que se va a incrementar. De manera similar, a cada variable de programa se le debe pre-asignar alguno de los registros de propósito general.</p>
