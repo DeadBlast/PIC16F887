@@ -118,11 +118,13 @@ El microcontrolador tiene una memoria de 8 KB, suficiente para aplicaciones en l
 
 ## Mas información
 <p>Para saber mas informacion del PIC te dejo los siguientes enlaces:</p>
+
 * [Caracteristicas basicas del PIC16F887 (Español)](http://learn.mikroe.com/ebooks/microcontroladorespicc/chapter/caracteristicas-basicas-del-pic16f887/)
+
 * [Manual completo del PIC16f887 (Ingles)](http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf)
 
 
 ## Sobre el proyecto
-<p> Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
-y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de [Telegram](http://telegram.me/DeadBlastBot).
+Este proyecto lo inicie para poder ayudar a las personas a utilizar el PIC16f887 ya que no hay mucha informacion en internet
+y mucho menos en español, espero les sea de ayuda, si tienen alguna duda o sugerencia pueden contactarme a mi cuenta de[Telegram](http://telegram.me/JackCloudman).
 
